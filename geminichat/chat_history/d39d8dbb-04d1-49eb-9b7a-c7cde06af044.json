@@ -1,0 +1,29 @@
+{
+  "id": "d39d8dbb-04d1-49eb-9b7a-c7cde06af044",
+  "title": "您好",
+  "created_at": "2025-08-24T16:27:40.043500",
+  "updated_at": "2025-08-24T16:27:40.043502",
+  "messages": [
+    {
+      "id": "a1cca2ac-d3d9-4baf-908e-c7b16680ee5b",
+      "role": "user",
+      "content": "您好",
+      "timestamp": "2025-08-23T18:56:36.549710",
+      "message_type": "text",
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "ab9fb9f8-315b-44fe-9f49-9afea154ae87",
+      "role": "assistant",
+      "content": "您好！有什么我可以帮助您的吗？\n",
+      "timestamp": "2025-08-23T18:56:37.560249",
+      "message_type": "text",
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "attachments": [],
+  "metadata": {},
+  "is_ephemeral": true
+}

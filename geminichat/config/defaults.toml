@@ -1,0 +1,33 @@
+# Default configuration settings
+[app]
+name = "Gemini Chat"
+version = "1.0.0"
+debug = false
+locale = "zh-CN"
+
+[ui]
+theme = "dark"
+window_width = 1200
+window_height = 800
+min_width = 600
+min_height = 400
+font_family = "微软雅黑"
+font_size = 12
+
+[api]
+default_model = "gemini-2.5-flash"
+max_tokens = 8192
+temperature = 0.7
+timeout = 30
+retry_count = 3
+
+[chat]
+max_history_entries = 1000
+auto_save = true
+save_interval = 5  # minutes
+enable_streaming = true  # 启用流式回复，AI将逐字显示回复内容
+
+[storage]
+chat_history_dir = "chat_history"
+config_file = "config.json"
+logs_dir = "logs"
