@@ -6,6 +6,8 @@
 [![PySide6](https://img.shields.io/badge/PySide6-6.5+-green.svg)](https://pypi.org/project/PySide6/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+### 注意：目前尚未发布正式版本。测试版将在未来几周内发布。
+
 ## ✨ 特性
 
 ### 🤖 AI 对话
@@ -73,19 +75,6 @@ echo "GEMINI_API_KEY=your_api_key_here" > .env
 python app.py
 ```
 
-## 🚀 使用指南
-
-### 基本使用
-1. 启动应用后，在欢迎页面选择"新建对话"
-2. 选择 AI 模型（推荐 Gemini 2.0 Flash）
-3. 输入消息开始对话
-4. 支持拖拽文件到对话框进行多模态交互
-
-### 高级功能
-- **主题定制**: 设置 → 外观 → 主题管理
-- **文件上传**: 支持批量上传和 URL 采集
-- **会话管理**: 左侧边栏管理所有对话历史
-- **设置调整**: 模型参数、界面偏好等
 
 ## 🏗️ 项目结构
 
@@ -164,3 +153,4 @@ python scripts/build_exe.sh
 ---
 
 ⭐ 如果这个项目对您有帮助，请给我们一个星星！
+
